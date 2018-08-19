@@ -61,3 +61,4 @@ Migrating to CreateStudentsTable (1)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name") VALUES (?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students"
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
